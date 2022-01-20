@@ -46,7 +46,8 @@
       "currency": "USD"
     },
     "uniqCompNum": 0,
-    "versionPublish": "5.5.8"
+    "versionPublish": "5.5.8",
+    "imageResize": true
   },
   "pages": {
     "index.html": {
