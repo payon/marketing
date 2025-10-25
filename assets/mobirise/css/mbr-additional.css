@@ -702,6 +702,11 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-sFGzlAXw3z .navbar-dropdown {
   position: relative !important;
 }
@@ -1552,6 +1557,7 @@ a {
   list-style: none;
   padding-left: 0;
   color: #bbbbbb;
+  text-align: justify;
 }
 @media (max-width: 991px) {
   .cid-sFGDg6hy8z .list {
